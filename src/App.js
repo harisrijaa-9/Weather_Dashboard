@@ -14,7 +14,8 @@ function App() {
   const [apiRequests, setApiRequests] = useState(0); // Initialize with 0
   const MAX_API_REQUESTS = 10;
 
-  const API_KEY = ""; // Replace with your API key
+  const API_KEY = process.env.REACT_APP_API_KEY;
+
   const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
 
   const fetchWeatherData = async (city) => {
