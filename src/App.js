@@ -62,8 +62,7 @@ function App() {
   };
 
   useEffect(() => {
-    // Fetch initial weather data for a default city if needed
-    // fetchWeatherData('DefaultCity');
+   
   }, []);
 
   return (
