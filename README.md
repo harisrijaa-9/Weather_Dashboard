@@ -15,4 +15,6 @@
 #### API Request Count: We keep track of the number of API requests made using the apiRequests state variable. After successfully fetching weather data, we increment this count to monitor the rate of API requests.
 
 ## To display normal globe use command to install : npm install three and also I wrote code.
-## API Key
+## API Key is environmental variable here. use the command in terminal: 
+#### REACT_APP_API_KEY=your-api-key-here
+
