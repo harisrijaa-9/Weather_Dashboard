@@ -14,12 +14,12 @@ function Globe({ cityCoordinates }) {
     );
     const renderer = new THREE.WebGLRenderer();
 
-    // Create a 3D globe model (simplified for demonstration)
+   
     const globeGeometry = new THREE.SphereGeometry(1, 32, 32);
     const globeMaterial = new THREE.MeshBasicMaterial({ color: 0x00aaff });
     const globe = new THREE.Mesh(globeGeometry, globeMaterial);
 
-    // Add the globe to the scene
+  
     scene.add(globe);
 
     camera.position.z = 5;
