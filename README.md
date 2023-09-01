@@ -1,3 +1,7 @@
+![Screenshot (518)](https://github.com/harisrijaa-9/Weather_Dashboard/assets/110247141/e45bdeff-7653-4b5b-8436-839c0cee24c7)
+..
+
+![Screenshot (519)](https://github.com/harisrijaa-9/Weather_Dashboard/assets/110247141/d1443940-eb23-49ba-a35e-f4037d28a596)
 ## I created a app by running the following commands:
 
 ##### npx create-react-app weather-dashboard
